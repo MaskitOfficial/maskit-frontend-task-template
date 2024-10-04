@@ -259,7 +259,6 @@ export default async function TicketsPage() {
 
 - `User`: 사용자 기본 정보 (이름, 이메일, 전화번호 등)
 - `UserState`: 사용자 상태 (활성, 비활성 등)
-- `UserMembershipType`: 회원 유형
 - `UserLoginType`: 로그인 방식 (이메일, 소셜 로그인 등)
 
 ### 티켓 관련
@@ -283,21 +282,9 @@ export default async function TicketsPage() {
 - `DiscountDocument`: 할인 증빙 문서 정보
 - `DiscountEligibility`: 할인 자격 정보
 
-### 결제 관련
-
-- `Payment`: 결제 정보
-- `PaymentStatus`: 결제 상태
-- `PaymentMethod`: 결제 방법
-
-### 알림 관련
-
-- `NotificationTemplate`: 알림 템플릿 정보
-- `NotificationGroup`: 알림 그룹 정보
-
 ### 관리자 관련
 
 - `Officer`: 관리자 정보
-- `OfficerRole`: 관리자 역할
 
 이 타입들은 `types/` 디렉토리에서 찾을 수 있으며, 프로젝트의 요구사항에 따라 수정하거나 확장할 수 있습니다.
 
